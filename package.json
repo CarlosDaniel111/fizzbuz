@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CarlosDaniel111/fizzbuz/issues"
   },
-  "homepage": "https://github.com/CarlosDaniel111/fizzbuz#readme"
+  "homepage": "https://github.com/CarlosDaniel111/fizzbuz#readme",
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
 }
