@@ -1,5 +1,5 @@
-const ExplorerService = require('../../lib/services/ExplorerService')
-const Reader = require('../../lib/utils/Reader')
+const ExplorerService = require("../../lib/services/ExplorerService")
+const Reader = require("../../lib/utils/Reader")
 
 describe('Unit Test for ExplorerService', () => {
     test('1. Filter explorer objects by mission', () => {
