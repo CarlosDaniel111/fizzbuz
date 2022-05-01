@@ -13,4 +13,11 @@ describe("Unit Test for ExplorerController", () => {
         const amountExplorersByMission = ExplorerController.getExplorersAmountByMission("java");
         expect(amountExplorersByMission).toBe(5);
     });
+
+    test("4. Get Fizzbuzz by number", () => {
+        expect(ExplorerController.getFizzbuzzByNumber(1)).toBe(1);
+        expect(ExplorerController.getFizzbuzzByNumber(3)).toBe("FIZZ");
+        expect(ExplorerController.getFizzbuzzByNumber(5)).toBe("BUZZ");
+        expect(ExplorerController.getFizzbuzzByNumber(15)).toBe("FIZZBUZZ");
+    });
 });
